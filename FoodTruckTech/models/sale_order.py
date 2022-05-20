@@ -8,5 +8,5 @@ class Actions(models.Model):
 
     record['x_studio_email'] = record.partner_id.email
 
-    return record
+    
 
