@@ -11,3 +11,5 @@ class Course(models.Model):
     desription = fields.Text(string='Description')
     
     
+    
+    active = fields.Boolean(string='Active', default=True)
