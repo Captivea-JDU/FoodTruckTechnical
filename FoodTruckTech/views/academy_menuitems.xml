@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        <record model="ir.action.act.window" id="course_list_action">
+   <!--     <record model="ir.action.act.window" id="course_list_action">
             <field name="name">Course</field>
             <field name="res.model">food.course</field>
             <field name="view_mode">tree.form</field>
@@ -10,7 +10,7 @@
                     Create the first course
                 </p>
             </field>
-        </record>
+        </record> -->
         <menuitem name="Odoo Academy"
             id="menu_academy"
             sequence="1"/>
