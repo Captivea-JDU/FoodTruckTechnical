@@ -19,9 +19,8 @@
     'version': '0.1',
     'depends': ['base'],
     'data': [
-        
         'views/stuff.xml' , 
-        'views/academy_menuitems.xml'
+        'views/academy_menuitems.xml',
         
     ],
     
