@@ -7,4 +7,7 @@ class Course(models.Model):
     _name = 'food.course'
     _description = 'Course Info'
     
-  
+    name = fields.Char(string='Title', required=True)
+    desription = fields.Text(string='Description')
+    
+    
