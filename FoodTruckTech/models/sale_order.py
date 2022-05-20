@@ -8,6 +8,6 @@ class SaleOrder(models.Model):
     _inherit = "sale.order"
     self['x_studio_email'] = self.partner_id.email
 
-    return
+
 
 
