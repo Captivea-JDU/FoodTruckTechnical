@@ -20,7 +20,7 @@
     'depends': ['base'],
     'data': [
         
-        'views/stuff.xml'  
+        'views/stuff.xml' , 
         'views/academy_menuitems.xml'
         
     ],
