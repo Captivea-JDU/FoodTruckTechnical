@@ -2,22 +2,32 @@
 <odoo>
     <data>
        <record model="ir.ui.view" id="food_list_view">
-            <field name="name">Course</field>
+            <field name="name">food.list.view</field>
             <field name="res.model">food.course</field>
             <field name="view_mode">tree.form</field>
             <field name="help" type="html">
-                <p class="o_view_noncontent_smiling_face">
+
+                <tree>
+                    <field name="name" />
+                    <field name="email" />
+                    <field name="phone" />
+
+                </tree>
+
+
+
+            <!--    <p class="o_view_noncontent_smiling_face">
                     Create the first course
-                </p>
+                </p> -->
             </field>
         </record> 
-        <menuitem name="Odoo Academy"
+       <!-- <menuitem name="Odoo Academy"
             id="menu_academy"
             sequence="1"/>
 
             <menuitem id="menu_academy_sub" name="Odoo Academy" parent="menu_academy" sequence='1'/>
 
-            <menuitem id="menu_academy_course" name="Courses" parent='menu_academy_sub' sequence='3' action='course_list_action'/>
+            <menuitem id="menu_academy_course" name="Courses" parent='menu_academy_sub' sequence='3' action='course_list_action'/> -->
 
     </data>
 </odoo>
