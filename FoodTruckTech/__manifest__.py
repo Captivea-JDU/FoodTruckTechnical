@@ -18,8 +18,7 @@
     'category': 'Training',
     'version': '0.1',
     'depends': ['base'],
-    'data': [
-         
+    'data': [ 
         'views/academy_menuitems.xml',
         
     ],
