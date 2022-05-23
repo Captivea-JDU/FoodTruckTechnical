@@ -16,12 +16,24 @@
         </record> 
       
 
-          
+           <record id="food_form_view" model="ir.ui.view">
+            <field name="name">food.form.view</field>
+            <field name="model">food.course</field>
+            <field name="arch" type="xml">
+
+                <form>
+                    <field name="name" />
+                    <field name="description" />
+                    <field name="level" />
+
+                </form>
+            </field>
+           </record> 
 
            <record id="action_food_profile" model = "ir.actions.act_window">
                 <field name="name">Food Profile</field>
                  <field name="res_model">food.course</field>
-                <field name="view_mode">tree</field>
+                <field name="view_mode">tree, form</field>
            </record>
 
 
