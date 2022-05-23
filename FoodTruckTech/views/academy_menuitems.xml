@@ -30,7 +30,7 @@
             </field>
            </record> 
 
-           <record id="action_food_profile" model = "ir.action.act_window">
+           <record id="action_food_profile" model = "ir.actions.act_window">
                 <field name="name">Food Profile</field>
                  <field name="res_model">food.course</field>
                 <field name="view_mode">tree, form</field>
