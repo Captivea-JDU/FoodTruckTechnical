@@ -7,7 +7,7 @@
             <field name="arch" type="xml">
 
                 <tree>
-                    <field name="title" />
+                    <field name="name" />
                     <field name="description" />
                     <field name="level" />
 
@@ -22,7 +22,7 @@
             <field name="arch" type="xml">
 
                 <form>
-                    <field name="title" />
+                    <field name="name" />
                     <field name="description" />
                     <field name="level" />
 
