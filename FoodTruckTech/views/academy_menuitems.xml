@@ -39,7 +39,7 @@
 
            <menuitem id="food_root_menu" name="food" />
            <menuitem id="food_sub_menu" parent="food_root_menu" />
-           <menuitem id="food_profile_menu" action="action_food_profile" parent="school_sub_menu" />
+           <menuitem id="food_profile_menu" action="action_food_profile" parent="food_sub_menu" />
     </data>
 </odoo>
 
