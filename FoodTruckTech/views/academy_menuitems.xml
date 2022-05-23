@@ -3,14 +3,13 @@
     <data>
        <record model="ir.ui.view" id="food_list_view">
             <field name="name">food.list.view</field>
-            <field name="res.model">food.course</field>
-            <field name="view_mode">tree.form</field>
-            <field name="help" type="html">
+            <field name="model">food.course</field>
+            <field name="arch" type="xml">
 
                 <tree>
-                    <field name="name" />
-                    <field name="email" />
-                    <field name="phone" />
+                    <field name="title" />
+                    <field name="description" />
+                    <field name="level" />
 
                 </tree>
 
@@ -21,14 +20,31 @@
                 </p> -->
             </field>
         </record> 
-       <!-- <menuitem name="Odoo Academy"
-            id="menu_academy"
-            sequence="1"/>
+      
 
-            <menuitem id="menu_academy_sub" name="Odoo Academy" parent="menu_academy" sequence='1'/>
+           <record id="food_form_view" model="ir.ui.view">
+            <field name="name">food.form.view</field>
+            <field name="model">food.course</field>
+            <field name="arch" type="xml">
 
-            <menuitem id="menu_academy_course" name="Courses" parent='menu_academy_sub' sequence='3' action='course_list_action'/> -->
+                <form>
+                    <field name="title" />
+                    <field name="description" />
+                    <field name="level" />
 
+                </form>
+           </record> 
+
+           <record id="action_food_profile" model = "ir.action.act.window">
+                <field name="name">Food Profile</field>
+                 <field name="res.model">food.course</field>
+                <field name="view_mode">tree, form</field>
+           </record>
+
+
+           <menuitem id="food_root_menu" name="food" />
+           <menuitem id="food_sub_menu" parent="food_root_menu" />
+           <menuitem id="food_profile_menu" action="action_food_profile" parent="school_sub_menu" />
     </data>
 </odoo>
 
