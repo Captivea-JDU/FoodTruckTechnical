@@ -27,6 +27,7 @@
                     <field name="level" />
 
                 </form>
+            </field>
            </record> 
 
            <record id="action_food_profile" model = "ir.action.act.window">
