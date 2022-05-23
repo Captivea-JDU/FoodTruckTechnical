@@ -4,7 +4,7 @@
        <record model="ir.ui.view" id="food_list_view">
             <field name="name">food.list.view</field>
             <field name="model">food.course</field>
-            <field name="arch" type="xml"/>
+            <field name="arch" type="xml">
 
                 <tree>
                     <field name="title" />
@@ -19,7 +19,7 @@
            <record id="food_form_view" model="ir.ui.view">
             <field name="name">food.form.view</field>
             <field name="model">food.course</field>
-            <field name="arch" type="xml"/>
+            <field name="arch" type="xml">
 
                 <form>
                     <field name="title" />
