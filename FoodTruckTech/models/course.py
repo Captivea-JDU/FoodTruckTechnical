@@ -3,7 +3,7 @@
 from odoo import models, fields, api
 
 class Course(models.Model):
-    
+
     _name = 'food.course'
     _description = 'Course Info'
     
@@ -18,4 +18,3 @@ class Course(models.Model):
     
     active = fields.Boolean(string='Active', default=True)
 
-    raise UserError('This is working, Right?')
