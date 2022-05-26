@@ -15,6 +15,7 @@
             </field>
         </record> 
       
+      
 
            <record id="food_form_view" model="ir.ui.view">
             <field name="name">food.form.view</field>
